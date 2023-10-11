@@ -1,0 +1,155 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 900px;
+    border: 1px solid rgba(59, 52, 52, 0.432);
+    padding: 10px;
+}
+
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    height: 200px;
+    background-color: #333;
+}
+
+.header img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    float: left;
+    margin: 20px;
+}
+
+.header .nama{
+    /* text-align: ; */
+    padding-top: 50px;
+    /* font-family: Georgia; */
+}
+
+.header .nama h3{
+    color: #fff;
+}
+
+.header .nama p{
+    color: aliceblue;
+}
+.nav {
+    background-color: black;
+    color: whitesmoke;
+    position: relative;
+    margin-top: 74px;
+}
+.nav ul{
+    display: flex;
+    justify-content: end;
+    
+}
+.nav li{
+    list-style-type: none; 
+    display: inline;
+    font: 20px/25px 'Courier New' sans-serif;
+    margin: 10px 10px;
+}
+
+.nav li:last-child{
+    margin-right: 50px;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: red;
+    color: white;
+}
+.nav li a:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.container-contet {
+    margin: 80px 20px 10px 20px;
+    padding: 10px 15px;
+    background-color: white;
+}
+
+iframe {
+    width: 400px;
+    height: 400px;
+    border: 1px black solid;
+    position: relative;
+    left: 225px;
+}
+.video-deks{
+    text-align: center;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font: 18px Georgia serif;
+}
+
+.container-table  th{
+    background-color: #333;
+    color: #ccc;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+button[type="submit"] {
+    background-color: burlywood;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.container-footer {
+    background-color:rgba(0, 0, 0, 0.432);
+}
+
+footer {
+    color: white;
+    font: 20px 'Times New Roman' sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    padding: 15px;
+}
