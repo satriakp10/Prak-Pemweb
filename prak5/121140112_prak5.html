@@ -1,0 +1,55 @@
+<!--Satria Kemala Putra-->
+<!--121140105-->
+<!--RB-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kalkulator Sederhana</title>
+    <link rel="stylesheet" type="text/css" href="Prak5.css">
+</head>
+<body>
+ <!--NAVBAR-->
+ <div class="container">
+    <div class="header">
+        <img src="https://th.bing.com/th/id/R.0f190435635267c669ae108f3eb8dbb8?rik=D4nQo99YBAfHFg&riu=http%3a%2f%2fpngimg.com%2fuploads%2fhacker%2fhacker_PNG33.png&ehk=2KSh8UDJ2UD6LnaslhgDISL44k3y807pgPwTki78dZU%3d&risl=&pid=ImgRaw&r=0" >
+        
+        <div class="nama">
+            <h3>SATRIA KEMALA PUTRA</h3>
+            <p>Teknik Informatika - Institut Teknologi Sumatera</p>
+        </div>
+    </div>
+
+<!--CONTENT-->
+<h1>KALKULATOR</h1>
+<<div class="calculator">
+    <input type="text" id="display" readonly>
+    <div class="keys">
+        <button onclick="appendToDisplay('7')">7</button>
+        <button onclick="appendToDisplay('8')">8</button>
+        <button onclick="appendToDisplay('9')">9</button>
+        <button onclick="appendToDisplay('+')">+</button>
+        <button onclick="appendToDisplay('4')">4</button>
+        <button onclick="appendToDisplay('5')">5</button>
+        <button onclick="appendToDisplay('6')">6</button>
+        <button onclick="appendToDisplay('-')">-</button>
+        <button onclick="appendToDisplay('1')">1</button>
+        <button onclick="appendToDisplay('2')">2</button>
+        <button onclick="appendToDisplay('3')">3</button>
+        <button onclick="appendToDisplay('*')">*</button>
+        <button onclick="appendToDisplay('0')">0</button>
+        <button onclick="clearDisplay()">C</button>
+        <button onclick="calculateResult()">=</button>
+        <button onclick="appendToDisplay('/')">/</button>
+    </div>
+</div>
+
+<!--FOOTER-->
+    <div class="container-footer">
+        <footer>PRAKTIKUM 5</footer>
+    </div>
+
+<script src="Prak5.js"></script>
+
+</body>
+</html>
